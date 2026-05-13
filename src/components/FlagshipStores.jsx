@@ -3,19 +3,19 @@ const stores = [
     city: 'Seoul',
     address: 'Garosu-gil, Sinsa-dong\nGangnam-gu, Seoul 06030',
     hours: 'Mon – Sun  11:00 – 21:00',
-    image: 'https://picsum.photos/seed/gm-store-seoul/800/600',
+    image: '/Seoul.svg',
   },
   {
-    city: 'New York',
-    address: '106 Wooster Street\nSoHo, New York NY 10012',
+    city: 'Milan',
+    address: '10 Corso Como\nMilano, MI 20154',
     hours: 'Mon – Sun  11:00 – 20:00',
-    image: 'https://picsum.photos/seed/gm-store-nyc/800/600',
+    image: '/Milan.svg',
   },
   {
-    city: 'Shanghai',
-    address: 'Xing Ye Lu, Lane 181\nXintiandi, Shanghai 200021',
+    city: 'Manila',
+    address: '10 Corso Como\nMilano, MI 20154',
     hours: 'Mon – Sun  10:00 – 22:00',
-    image: 'https://picsum.photos/seed/gm-store-sh/800/600',
+    image: '/Manila.svg',
   },
 ]
 
