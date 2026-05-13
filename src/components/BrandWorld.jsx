@@ -16,7 +16,7 @@ export default function BrandWorld() {
             Brand World
           </p>
           <h2 className="font-bold text-[20xvw] md:text-[5vw] lg:text-[4vw] text-white  tracking-[0.15em] leading-tight">
-            Where art meets vision
+            Where art meets VISION
           </h2>
         </div>
       </div>

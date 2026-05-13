@@ -33,19 +33,14 @@ const products = [
   },
 ]
 
-function ProductCard({ name, type, price, image1, image2 }) {
+function ProductCard({ name, type, price, image1 }) {
   return (
-    <div className="group cursor-pointer">
+    <div className="cursor-pointer">
       <div className="relative overflow-hidden aspect-[3/4] bg-neutral-100">
         <img
           src={image1}
           alt={name}
-          className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out group-hover:opacity-0"
-        />
-        <img
-          src={image2}
-          alt={`${name} alternate view`}
-          className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100"
+          className="absolute inset-0 w-full h-full object-cover"
         />
       </div>
       <div className="pt-4 pb-1">
